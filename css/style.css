@@ -1,0 +1,26 @@
+/*
+Theme Name: gmed
+Author: the isadoradigitalagency team
+Author URI: http://isadoradigitalagency.com/
+Description: "gmed"
+Version: 1.0
+License: http://isadoradigitalagency.com/
+License URI: http://isadoradigitalagency.com/
+Text Domain: gmed
+*/
+.page-id-2262 .type-devices,
+.page-id-886 .type-devices{
+    display: none;
+}
+
+@keyframes bannerFade {
+  0%   {opacity: 0;}
+  35%  {opacity: 1;}
+  90%  {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+.ai-rotate-option.ai-active {
+  opacity: 0;
+  animation-name: bannerFade;
+}
